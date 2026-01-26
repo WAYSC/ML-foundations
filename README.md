@@ -28,6 +28,8 @@ ml-foundations/
 ├── README.md # Project overview and learning log
 ├── notes/ # Structured markdown notes (concepts & theory)
 │ ├── 01-what-is-ml.md
+│ ├── 02-pandas-basics.md
+│ ├── 03-data-cleaning.md
 ├── notebooks/ # Jupyter notebooks for experiments & visualization
 └── src/ # Reusable Python modules (engineering-oriented)
 ```
