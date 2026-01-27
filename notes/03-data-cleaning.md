@@ -1,4 +1,4 @@
-# 03 · Data Cleaning & Preprocessing 🧹🧪
+# 03 - Data Cleaning & Preprocessing 🧹🧪
 
 > Goal: Handle **missing values, scaling, dates, encoding, and messy strings**  
 > Focus: Real-world data issues before modeling  
