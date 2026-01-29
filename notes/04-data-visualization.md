@@ -1,5 +1,7 @@
 # 04 - Data Visualization 📊🎨
 
+![pic](assets/data_visualization.png)
+
 > Goal: Visually explore data distributions, relationships, and patterns  
 > Tools: `matplotlib` + `seaborn`  
 
@@ -172,3 +174,90 @@ df.index
 ```
 
 *   Use this when the original column is now the index
+
+11\. Distributions 📊📐
+---------------------------
+
+### 11.1 Histogram (Frequency Distribution)
+
+```python
+sns.histplot(df["col_name"])
+```
+
+*   Shows the **frequency distribution** of a single variable
+*   Useful for checking skewness & spread
+
+### 11.2 Histogram with categories
+
+```
+sns.histplot(
+    data=df,
+    x="col_name",
+    hue="category_col"
+)
+```
+
+*   `hue` splits the data into **multiple colored distributions**
+*   Great for comparing groups
+
+12\. Density Plots (KDE) 🌊
+---------------------------
+
+### 12.1 Single-variable KDE
+
+### 
+
+```python
+sns.kdeplot(df["col_name"], shade=True)
+```
+
+*   Smooth estimation of the distribution
+*   `shade=True` fills the area under the curve
+
+### 12.2 KDE with categories
+
+```python
+sns.kdeplot(
+    data=df,
+    x="col_name",
+    hue="category_col",
+    shade=True
+)
+```
+
+*   Overlapping density curves by category
+
+* * *
+
+13\. Joint Distributions 🔗
+---------------------------
+
+### 13.1 2D KDE (Joint Plot)
+
+```python
+sns.jointplot(
+    x=df["x_col"],
+    y=df["y_col"],
+    kind="kde"
+)
+```
+
+*   Visualizes the **joint density** of two variables
+*   Useful for spotting clusters & correlations
+
+* * *
+
+14\. Seaborn Styles 🎨
+----------------------
+
+```python
+sns.set_style("dark")
+```
+
+Available styles:
+
+*   `darkgrid`
+*   `whitegrid`
+*   `dark`
+*   `white`
+*   `ticks`
