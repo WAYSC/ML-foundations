@@ -57,15 +57,14 @@ This repository covers (and will continue to expand on):
 
 ## 📅 Learning Log
 
-
 | Day | Date       | Topics | Output |
 |-----|------------|--------|--------|
-| Day 1 | 2026-01-23 | What is ML, Supervised vs Unsupervised, ML Pipeline | README initialized, pipeline notes |
-| Day 2 | 2026-01-24 | Statistics Foundation (Data Types, Descriptive Statistics) | Statistical concept notes, data type classification sheet |
-| Day 3 | 2026-01-25 | Probability Basics (Random Events, Probability Distributions) | Probability formula summary, distribution characteristic analysis |
-| Day 4 | 2026-01-27 | Hypothesis Testing (Basic Logic, Z-test/T-test) | Hypothesis testing process notes, case practice code |
-| Day 5 | 2026-02-01 | Correlation and Regression Analysis (Correlation Coefficient, Simple Regression) | Correlation calculation practice, regression model demo |
-| Day 6 | 2026-02-02 | Statistics Basics (Variance, Standard Deviation, NumPy Statistical Calculation) | statistics_basics.ipynb |
+| Day 1 | 2026-01-23 | What is ML, Supervised vs Unsupervised, ML Pipeline | README.md & what-is-ml.md |
+| Day 2 | 2026-01-24 | Pandas Basics, DataFrame, Series, Data I/O | pandas-basics.ipynb |
+| Day 3 | 2026-01-25 | Data Cleaning, Missing Values, Duplicates, Outlier Handling | data-cleaning.ipynb |
+| Day 4 | 2026-01-27 | Data Visualization, Matplotlib, Seaborn, Common Charts | data-visualization.ipynb |
+| Day 5 | 2026-02-01 | Feature Engineering, Feature Encoding, Feature Scaling, Feature Selection | feature-engineering.ipynb |
+| Day 6 | 2026-02-02 | NumPy, Manual Implementation of Mean, Manual Implementation of Variance | statistics-basics.ipynb |
 
 > 📌 This table is continuously updated to track learning progress and outputs.
 
