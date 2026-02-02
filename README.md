@@ -30,8 +30,12 @@ ml-foundations/
 │ ├── 01-what-is-ml.md
 │ ├── 02-pandas-basics.md
 │ ├── 03-data-cleaning.md
+│ ├── 04-data-visualization.md
+│ ├── 05-feature-engineering.md
 ├── notebooks/ # Jupyter notebooks for experiments & visualization
-└── src/ # Reusable Python modules (engineering-oriented)
+│ ├── statistics_basics.ipynb
+└── assets/ # Reusable Python modules (engineering-oriented) and pictures
+│ ├── data_visualization.png
 ```
 ---
 
@@ -53,9 +57,15 @@ This repository covers (and will continue to expand on):
 
 ## 📅 Learning Log
 
-| Day | Date | Topics | Output |
-|----|------|--------|--------|
+
+| Day | Date       | Topics | Output |
+|-----|------------|--------|--------|
 | Day 1 | 2026-01-23 | What is ML, Supervised vs Unsupervised, ML Pipeline | README initialized, pipeline notes |
+| Day 2 | 2026-01-24 | Statistics Foundation (Data Types, Descriptive Statistics) | Statistical concept notes, data type classification sheet |
+| Day 3 | 2026-01-25 | Probability Basics (Random Events, Probability Distributions) | Probability formula summary, distribution characteristic analysis |
+| Day 4 | 2026-01-27 | Hypothesis Testing (Basic Logic, Z-test/T-test) | Hypothesis testing process notes, case practice code |
+| Day 5 | 2026-02-01 | Correlation and Regression Analysis (Correlation Coefficient, Simple Regression) | Correlation calculation practice, regression model demo |
+| Day 6 | 2026-02-02 | Statistics Basics (Variance, Standard Deviation, NumPy Statistical Calculation) | statistics_basics.ipynb |
 
 > 📌 This table is continuously updated to track learning progress and outputs.
 
