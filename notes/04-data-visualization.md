@@ -1,6 +1,6 @@
 # 04 - Data Visualization 📊🎨
 
-![pic](assets/data_visualization.png)
+![pic](../assets/data_visualization.png)
 
 > Goal: Visually explore data distributions, relationships, and patterns  
 > Tools: `matplotlib` + `seaborn`  
