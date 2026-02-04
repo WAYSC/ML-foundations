@@ -35,6 +35,7 @@ ml-foundations/
 ├── notebooks/ # Jupyter notebooks for experiments & visualization
 │ ├── statistics_basics.ipynb
 │ ├── loss_functions_from_scratch.ipynb
+│ ├── gradient_exploration.ipynb
 └── assets/ # Reusable Python modules (engineering-oriented) and pictures
 │ ├── data_visualization.png
 ```
@@ -67,6 +68,7 @@ This repository covers (and will continue to expand on):
 | Day 5 | 2026-02-01 | Feature Engineering, Feature Encoding, Feature Scaling, Feature Selection | feature-engineering.ipynb |
 | Day 6 | 2026-02-02 | NumPy, Manual Implementation of Mean, Manual Implementation of Variance | statistics-basics.ipynb |
 | Day 7 | 2026-02-03 | Loss Functions, Manual Implementation of Loss Functions | loss_functions_from_scratch.ipynb |
+| Day 8 | 2026-02-04 | Gradient Calculation and Exploration, Gradient Clearance in PyTorch | gradient_exploration.ipynb |
 
 > 📌 This table is continuously updated to track learning progress and outputs.
 
