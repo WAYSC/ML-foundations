@@ -27,11 +27,12 @@ The goal of this project is not just to *use* machine learning models, but to **
 ml-foundations/
 ├── README.md # Project overview and learning log
 ├── notes/ # Structured markdown notes (concepts & theory)
-│ ├── 01-what-is-ml.md
-│ ├── 02-pandas-basics.md
-│ ├── 03-data-cleaning.md
-│ ├── 04-data-visualization.md
-│ ├── 05-feature-engineering.md
+│ ├── what-is-ml.md
+│ ├── pandas-basics.md
+│ ├── data-cleaning.md
+│ ├── data-visualization.md
+│ ├── feature-engineering.md
+│ ├── logistic-vs-linear-regression.md
 ├── notebooks/ # Jupyter notebooks for experiments & visualization
 │ ├── statistics_basics.ipynb
 │ ├── loss_functions_from_scratch.ipynb
